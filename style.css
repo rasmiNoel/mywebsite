@@ -11,3 +11,9 @@ h2 {
     font-style: italic;
     font-weight: 400;
 }
+.links {
+    position: absolute;
+    top: 4%;
+    right: 3%;
+    
+}
