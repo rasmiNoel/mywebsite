@@ -18,7 +18,7 @@ body {
 }
 
 .links {
-    background-color: #615331;
+    background-color: #361C17;
     display: flex;
     flex-direction: row;
     writing-mode: vertical-rl;
@@ -126,5 +126,15 @@ article {
 .background {
     position: absolute;
     opacity: 35%;
-    
+
+}
+
+#clock {
+    font-size: 150px;
+    width: 0px;
+    margin: 0px;
+    text-align: end;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
