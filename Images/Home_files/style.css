@@ -1,0 +1,142 @@
+html {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-items: end;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.links {
+    background-color: #361C17;
+    display: flex;
+    flex-direction: row;
+    writing-mode: vertical-rl;
+    text-orientation: vertical-left;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.links a {
+    color: #cfaf52;
+    text-decoration: none;
+}
+
+.links div {
+    padding: 20px;
+    transition: 0.5s ease transform;
+    transform: rotate(180deg);
+}
+
+.links div:hover {
+    transform: scale(1.3) rotate(180deg);
+
+}
+
+main {
+    background-color: #08131b;
+    color: #fff;
+    padding: 20px;
+    overflow: scroll;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    color: #cfaf52;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.landing {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.landing #clock {
+    font-size: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900%;
+    font-stretch: expanded;
+    margin: 10%;
+    padding-left: 35%;
+}
+
+article {
+    height: 100%;
+}
+
+.landing #rethink {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    margin-left: 1%;
+}
+
+.landing #design {
+    font-size: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: #cfaf52;
+}
+
+.landing #create {
+    font-size: 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.landing p {
+    padding: 0;
+    margin: 0;
+    line-height: 7rem;
+}
+
+.landing .tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+
+.background {
+    position: absolute;
+    opacity: 35%;
+}
+.about p {
+    color: #fff;
+    font-size: xx-large;
+    word-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.skills {
+    color: #fff;
+    font-size: xx-large;
+    word-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}

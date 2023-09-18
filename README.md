@@ -1,7 +1,7 @@
 # mywebsite
-#  PORTFOLIO101
+#  myWebsite
 *****
-### Author : Anita Kahenya Se18 9th 2023
+### Author : Rasmi Noel Se18 9th 2023
 ****
 ## Project Description
 This is me.I share about my skills, educational background, hobbies and my favourite sports activities and also how to contact me.

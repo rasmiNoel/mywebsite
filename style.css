@@ -79,7 +79,7 @@ h2 {
 
 .landing #clock {
     font-size: 150px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 900%;
     font-stretch: expanded;
     margin: 10%;
@@ -127,4 +127,18 @@ article {
 .background {
     position: absolute;
     opacity: 35%;
+}
+
+.about p {
+    color: #fff;
+    font-size: xx-large;
+    word-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skills {
+    color: #fff;
+    font-size: xx-large;
+    word-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
