@@ -1,5 +1,46 @@
+
+html {
+    height: 100%;
+}
+
 body {
-    background: rgb(120, 120, 142)
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.links {
+    background-color: #615331;
+    display: flex;
+    flex-direction: row;
+    writing-mode: vertical-rl;
+    text-orientation: vertical-left;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+.links a {
+   color: #cfaf52;
+   text-decoration: none;
+   
+}
+.links div {
+    padding: 20px;
+    transition: 0.5s ease transform;
+    transform: rotate(180deg);
+}
+.links div:hover {
+    transform: scale(1.3) rotate(180deg);
+    
+}
+main {
+    background-color: #08131b;
+    color: #fff;
+    padding: 20px;
+    overflow: scroll;
 }
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -11,9 +52,13 @@ h2 {
     font-style: italic;
     font-weight: 400;
 }
-.links {
-    position: absolute;
-    top: 4%;
-    right: 3%;
+.landing {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+article {
+    height: 100%;
     
 }
