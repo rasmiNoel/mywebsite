@@ -4,14 +4,14 @@
 ### Author : Rasmi Noel Se18 9th 2023
 ****
 ## Project Description
-This is me.I share about my skills, educational background, hobbies and my favourite sports activities and also how to contact me.
+This is me. I share about my skills, educational background, hobbies and my favourite sports activities and also how to contact me.
 ******
 
 ## SCREENSHOTS
-- ![Screenshot 2023-09-18 at 5 28 42 PM](https://github.com/kahenya-anita/Portfolio101/assets/62019551/93aa6934-3d3b-4a8a-ab2a-644cb4b0a26a)
-
-- 
-
+- !<img width="1789" alt="Home" src="https://github.com/rasmiNoel/mywebsite/assets/144110040/87c02eaa-2fd6-4260-8682-2a39277ee145">
+<img width="1789" alt="Skills" src="https://github.com/rasmiNoel/mywebsite/assets/144110040/3fdcb675-c3ce-41b7-b56a-6c0b199edab3">
+<img width="1789" alt="About Me" src="https://github.com/rasmiNoel/mywebsite/assets/144110040/aaf77f35-b6f3-4e0a-86d7-143dbe58e73c">
+!
 
 
 ********
@@ -39,13 +39,12 @@ This is me.I share about my skills, educational background, hobbies and my favou
 > Run using live server
 *****
 ## Live Link
-Or you can access the web application directly via this [https://kahenya-anita.github.io/Portfolio101/](https://kahenya-anita.github.io/Portfolio101/)
+Or you can access the web application directly via this [https://rasminoel.netlify.app/](https://rasminoel.netlify.app/)
 *****
 ## Dependencies
 - Google fonts
 - Font awesome Icons
 - MD Bootstrap
-- Colormind.io
 *****
 ## Technologies Used
 1. HTML
@@ -53,8 +52,8 @@ Or you can access the web application directly via this [https://kahenya-anita.g
 3. JavaScript
 *****
 ## Contact Information
-* Email : anitakahenya1@gmail.com
+* Email : rasminoel@gmail.com
 *****
 ## [License](LICENSE)
 MIT License
-Copyright (c) 2023 Anita Kahenya
+Copyright (c) 2023 Rasmi Noel
